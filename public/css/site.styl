@@ -1,0 +1,55 @@
+@import 'nib/vendor'
+@import 'nib/gradients'
+@import bootstrap
+@import 'bootstrap/variables'
+@import 'bootstrap/mixins'
+@import 'bootstrap/alerts'
+
+vendor-prefixes = o ms moz webkit official
+
+gris_claro = #818181
+gris_oscuro = #333
+rojo = #BD2558
+gris_mas_claro = #F0F0F0
+gris_metal = #dfdfdf
+
+body
+  padding-top 0
+  font-size 17px
+//  height 100%
+//
+//section.content
+//  margin 2em
+
+//.container-fluid
+//  padding 0
+
+.navbar-default
+  background-image linear-gradient(top, white, gris_metal)
+
+footer
+  p
+    border-top 1px solid #d7e0e2
+    padding 15px 15px
+
+section.Register
+  background url("../img/slide1.jpg") no-repeat center center fixed
+  background-size cover
+  min-height 100%
+  .Register-form
+    padding-top 5em
+//* html .register-background {
+//  height: 100%;
+//}
+
+.navbar-form
+  .form-group
+    margin-left 10px
+  button
+    margin-left 10px
+
+.toast-top-right
+  top 60px
+
+.toast-success
+  background-color #13987e
